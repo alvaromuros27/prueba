@@ -1,7 +1,7 @@
 #CREAR PROGRAMA QUE LE PREGUNTE AL USUARIO SU NOMBRE Y EDAD, Y EN QUE AÑO TENDRA 100 AÑOS
 
 name = input('¿como te llamas?')
-age = input('¿que edad tienes?')
+age = input('¿qué edad tienes?')
 
 edad = 100-int(age)
 year= 2022+edad
