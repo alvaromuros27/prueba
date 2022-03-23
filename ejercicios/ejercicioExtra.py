@@ -1,14 +1,20 @@
 #Preguntar al usuario un número y decir si es capicuo.
-palabra=input('Escribe una palabra ')
-print(palabra)
-"""
-if len(palabra)%2==0:
-    s1= palabra[:len(palabra)//2]
-    s2= palabra[len(palabra)//2:]
+num=input('Escribe un numero ')
+
+
+if len(num)%2==0:
+    s1= num[:len(num)//2]
+    s2= num[len(num)//2:]
     invertido=s2[len(s2)::-1]
-    print(invertido)
+    if(s1==invertido):
+        print('El numero es capicuo')
+    else:
+        print('No es capicuo')
 else:
-    print('es impar')
-for elemento in palabra:
-    print(elemento)
-"""
+    s3 = num[:len(num) // 2]
+    s4= num[(len(num) // 2)+1:]
+    if s3 == s4[::-1]:
+        print("El número es capicuo")
+    else:
+        print('No es capicuo')
+

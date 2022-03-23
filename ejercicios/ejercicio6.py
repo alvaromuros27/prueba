@@ -6,6 +6,6 @@ palabra=input('Escribe una palabra: ')
 invertido=palabra[len(palabra)::-1]
 
 if(palabra==invertido):
-    print('La palabra es capicua')
+    print('La palabra es palindroma')
 else:
-    print('La palabra no es capicua')
+    print('La palabra no es palindroma')
