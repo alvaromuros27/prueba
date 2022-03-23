@@ -7,3 +7,5 @@ class Person:
 john = Person("John")
 print(john.name)
 john.talk()
+
+bob = Person('bob')
